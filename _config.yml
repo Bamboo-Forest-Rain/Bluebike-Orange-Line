@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Yihong Hu, Ran Wang, and Zoe Yoo"
+title: "Orange Line Shutdown Effects on Bluebike Ridership"
 email: "yihonghu@upenn.edu"
 description: "This is our MUSA-550 final project, showing the orange line effects on Bluebike ridership in Boston, MA"
 twitter_username:
