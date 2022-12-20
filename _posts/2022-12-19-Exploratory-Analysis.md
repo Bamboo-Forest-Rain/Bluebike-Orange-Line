@@ -7,7 +7,7 @@ excerpt: "How did orange line shutdown contributed changed the travel pattern du
 hv-loader:
   hv-chart-1: ["charts/ridership_line.html", "500"] # second argument is the height
   hv-chart-2: ["charts/stacked_bar_usertype.html", "400"]
-  hv-chart-4: ["charts/map.html", "800"]
+  hv-chart-3: ["charts/map.html", "800"]
 
 toc: true
 toc_sticky: false
@@ -118,7 +118,7 @@ As more people started to be aware they could sign-up for free membership in Aug
 When we look at the overall trend of average station membership, we indeed saw a dramatic decrease in subsctibers in summer 2020 comparing to summers of the other years due to COVID.  In summer 2021, the number of subscribers resumed to the level in summer 2019 (especially comparing the September data). In 2022, we see a huge jump up in subscribers, exceeding the summer of other years. The increase rate is the fastest between August and September, shown by the steep slope, at the same time the number of customers decreased in a great extent. 
 ### 1.4 Spatial ridership change across each year and station
 
-<div id="hv-chart-4"></div>
+<div id="hv-chart-3"></div>
 
 The map above shows the expansion of bikeshare service on census tract basis. Across the years, the maps follow some basic pattern:
     1. Boston downtown and Cambridge always have the highest ridership per station, due to its students and tourists population. 
