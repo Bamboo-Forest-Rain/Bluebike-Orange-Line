@@ -3,7 +3,7 @@ title: "Limitation"
 date: 2022-12-17
 published: true
 tags: [dataviz, matplotlib]
-excerpt: "Project description"
+excerpt: "Project Limitation"
 toc: false
 toc_sticky: true
 read_time: true
