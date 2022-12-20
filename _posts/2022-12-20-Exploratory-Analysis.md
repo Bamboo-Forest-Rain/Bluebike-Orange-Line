@@ -5,15 +5,14 @@ published: true
 tags: [dataviz, hvplot, holoviews]
 excerpt: "How did orange line shutdown contributed changed the travel pattern during the time?"
 hv-loader:
-  hv-chart-1: ["charts/ridership_line.html", "500"] # second argument is the height
-  hv-chart-2: ["charts/stacked_bar_usertype.html", "500"]
-  hv-chart-3: ["charts/averagestationridership.html", "1000"]
+  hv-chart-1: ["charts/ridership_line.html", "400"] # second argument is the height
+  hv-chart-2: ["charts/stacked_bar_usertype.html", "400"]
+  hv-chart-3: ["charts/averagestationridership.html", "600"]
+  hv-chart-4: ["charts/map.html", "600"]
+
 toc: false
 toc_sticky: false
 ---
-
-
-This post will show examples of embedding interactive charts produced using [Altair](https://altair-viz.github.io) and [Hvplot](https://hvplot.pyviz.org/).
 
 ## 1. Looking at the Trend prior and during Orange Line Shutdown
 
@@ -46,3 +45,16 @@ As more people started to be aware they could sign-up for free membership in Aug
 <div id="hv-chart-3"></div>
 
 When we look at the overall trend of average station membership, we indeed saw a dramatic decrease in subsctibers in summer 2020 comparing to summers of the other years due to COVID.  In summer 2021, the number of subscribers resumed to the level in summer 2019 (especially comparing the September data). In 2022, we see a huge jump up in subscribers, exceeding the summer of other years. The increase rate is the fastest between August and September, shown by the steep slope, at the same time the number of customers decreased in a great extent. 
+### 1.4 Spatial ridership change across each year and station
+
+<div id="hv-chart-4"></div>
+
+The map above shows the expansion of bikeshare service on census tract basis. Across the years, the maps follow some basic pattern:
+    1. Boston downtown and Cambridge always have the highest ridership per station, due to its students and tourists population. 
+    2. The more spread out from the center, the less the ridership per station
+
+We see an interesting pattern in 2022, when Orange Line was shutdown and bikeshare service was made free. We see that colors changed very apprently across the month, especially in the south side (where majority of the low income neighborhood are at). Despite the ridership increase near the orange line, the ridership have also increased in other places away from the line. 
+
+### 1.5 Conclusion
+
+By looking at the trends, we definitely see the effect of free bikeshare service in August to September in 2022. We see that there is a huge spike in average station ridership, number of subscribers, and increase in ridership in low income neighborhoods. We see that not only the original orange line commuters and college students living along South west corridor benefited from the free program, even the low-income neighborhoods away from the orange line might also be benefited from it. 
