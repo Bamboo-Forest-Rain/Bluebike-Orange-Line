@@ -3,7 +3,7 @@ title: "Comparision of Factor Importance"
 date: 2022-12-18
 published: true
 tags: [dataviz, hvplot, holoviews]
-excerpt: "How did orange line shutdown contributed changed the travel pattern during the time?"
+excerpt: "What are the factors contributed to the ridership increase?"
 hv-loader:
   hv-chart-1: ["charts/Factor_Importance_2022_1.html", "500"] # second argument is the height
   hv-chart-2: ["charts/Factor_Importance_2022_2.html", "500"]

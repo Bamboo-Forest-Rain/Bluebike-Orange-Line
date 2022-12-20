@@ -7,7 +7,7 @@ excerpt: "How did orange line shutdown contributed changed the travel pattern du
 hv-loader:
   hv-chart-1: ["charts/ridership_line.html", "500"] # second argument is the height
   hv-chart-2: ["charts/stacked_bar_usertype.html", "400"]
-  hv-chart-3: ["charts/averagestationridership.html", "800"]
+  hv-chart-3: ["charts/averagestationridership.html", "650"]
   hv-chart-4: ["charts/map.html", "800"]
 
 toc: true
