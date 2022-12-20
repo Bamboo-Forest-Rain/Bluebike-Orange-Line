@@ -102,6 +102,11 @@ Bluebike has two type of users: 1. Subscriber - who has signed up for monthly or
   </body>
 </html>
 
+
+
+
+
+
 Red bars represent percent subscribers and Blue bars represent percent customers. Subscribers are always more than customers, meaning that most likely Boston and nearby city residents are using the service more than visitors who are more likely to use the service. Customers are usually around 20% - 30% and subscribers 70% - 80% of the users. In 2021 and 2022, the percentage of subscribers slightly decreased, perhaps residents at the time started to work remontely even during the summer days. 
 
 The trend in 2022 is interesting, as tourism started to resume, we would suspect that the percentage of customers increases. Instead, the percentage of subscribers kept increasing. For the first time in five years, the percent of customers dropped to 10%. 
@@ -181,6 +186,8 @@ As more people started to be aware they could sign-up for free membership in Aug
         </script>
   </body>
 </html>
+
+
 
 
 When we look at the overall trend of average station membership, we indeed saw a dramatic decrease in subsctibers in summer 2020 comparing to summers of the other years due to COVID.  In summer 2021, the number of subscribers resumed to the level in summer 2019 (especially comparing the September data). In 2022, we see a huge jump up in subscribers, exceeding the summer of other years. The increase rate is the fastest between August and September, shown by the steep slope, at the same time the number of customers decreased in a great extent. 
