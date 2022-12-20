@@ -5,7 +5,7 @@ published: true
 tags: [dataviz, hvplot, holoviews]
 excerpt: "How did orange line shutdown contributed changed the travel pattern during the time?"
 hv-loader:
-  hv-chart-1: ["charts/ridership_line.html", "500"] # second argument is the height
+  hv-chart-1: ["charts/ridership_line.html", "400"] # second argument is the height
   hv-chart-2: ["charts/map.html", "800"]
 
 toc: true
