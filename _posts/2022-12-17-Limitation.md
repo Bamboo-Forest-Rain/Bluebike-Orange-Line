@@ -9,7 +9,7 @@ toc_sticky: true
 read_time: true
 ---
 
-## Limitation 
+## 5 Limitation 
 
 We do want to recognize the limitation of these models. The biggest one is the demongraphic and social-econoimc data that is from 2020 5-year ACS. We decide to use this 2020 5 year ACS, because 2021 1 year ACS is unrealiable due to COVID. This could lead to the result difference in 2019 and 2022, as 2019 result looks more reasonably than the one in 2022 -- percent biking to work is highly correlate dwith increase in bikeshare deamnd. 2020 ACS is mostly complied with data pre-COVID, and is more reflective of the situation in 2019 than 2022, when the work life, commuting patterns are drastically different. We could only make educated guesses on what could possibly happen, but not exactly certain of how these factors could impact bikeshare demand.
 

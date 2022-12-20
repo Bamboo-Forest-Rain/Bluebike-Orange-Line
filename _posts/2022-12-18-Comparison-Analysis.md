@@ -10,11 +10,11 @@ hv-loader:
   hv-chart-3: ["charts/Factor_Importance_2019.html", "500"]
 
 toc: true
-toc_sticky: false
+toc_sticky: true
 read_time: true
 ---
 
-## 3.1 Introduction 
+## 4.1 Introduction 
 
 In this section, we are going to run three models. In the previous analysis, we hypothesized the ridership increase during orange line shutdown could be due to 1) increased trip from original orange line commuters now replaced by bikeshare and 2) ridership of low income neighborhoods. Thus we want to see how these affect the bikeshare demand. 
 
@@ -28,7 +28,7 @@ Third, we will run the variables, including the orange line shutdown related var
 
 The regression we chose here is **random forest**, which shows a high degree of accuracy.
 
-## 3.2 Model without orange line shutdown related variables
+## 4.2 Model without orange line shutdown related variables
 
 <div id="hv-chart-1"></div>
 
@@ -40,7 +40,7 @@ Interesting percentage driving to work is the fourth. This is understanble, beca
 
 Distance to Subway makes sense to be on the fifth, because bikeshare most of the time would fulfill the last-mile demand for transit riders.
 
-## 3.3 Model with orange line shudown related variables
+## 4.3 Model with orange line shudown related variables
 
 <div id="hv-chart-2"></div>
 
@@ -50,7 +50,7 @@ The factors importance mostly related similar to the previous model. Distance to
 
 Poverty rate, on the other hand, performs poorly as a variable in contributing to the accuracy.
 
-## 3.4 Model on 2019 data
+## 4.4 Model on 2019 data
 
 <div id="hv-chart-3"></div>
 
