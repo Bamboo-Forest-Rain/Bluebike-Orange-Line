@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-date: 2022-12-10
+date: 2022-12-20
 published: true
 tags: [dataviz, matplotlib]
 excerpt: "Project description"

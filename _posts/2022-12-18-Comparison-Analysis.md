@@ -1,6 +1,6 @@
 ---
 title: "Comparision of Factor Importance"
-date: 2022-12-20
+date: 2022-12-18
 published: true
 tags: [dataviz, hvplot, holoviews]
 excerpt: "How did orange line shutdown contributed changed the travel pattern during the time?"

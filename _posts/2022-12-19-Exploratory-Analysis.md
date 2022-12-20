@@ -1,6 +1,6 @@
 ---
 title: "Exploratory Analysis - Changes in Trend"
-date: 2022-12-20
+date: 2022-12-19
 published: true
 tags: [dataviz, hvplot, holoviews]
 excerpt: "How did orange line shutdown contributed changed the travel pattern during the time?"
